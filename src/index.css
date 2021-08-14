@@ -1,0 +1,265 @@
+body {
+    background-image: url('./images/cBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 0;
+  }
+  .flexContainer{
+    display: flex;
+  }  
+  nav {
+    width: 10%;
+    height: 100%;
+    background-color: rgba(81, 82, 80, 0);
+    margin-top: 95px;
+  }
+  .links {
+    list-style: none;
+  }
+  .active {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: .2em;
+  }
+  .links li {
+    border-style: outset;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin-bottom: 17px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: rgb(62, 63, 62);
+  }
+  .links li a {
+    color:rgb(255, 255, 255);
+  }
+  .content {
+    margin-top: 95px;
+    display: block;
+    width: 90%;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  h1 {
+    text-align: center;
+  }
+  h3, h4 {
+    text-align: center;
+
+  }
+  .banner li {
+    display: inline-block;
+    list-style-type: none;
+    width: 33.3%;
+    position: center;
+
+  }
+  .leftBanner {
+    content: url('./images/crunchySubscribe.jpg');
+    width: auto;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0%;
+    border-radius: 20px;
+    padding: 0;
+    opacity: 80%;
+  }
+  .midBanner {
+    content: url('./images/crollbanner.jpg');
+    width: auto;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0%;
+    padding: 0;
+    border-radius: 25px;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+
+  }
+  .rightBanner {
+    content: url('./images/nier.jpg');
+    width: auto;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0%;
+    border-radius: 20px;
+    padding: 0;
+
+  }
+    div.animeLinks li {
+    display: inline-block;
+    list-style-type: none;
+    border-style: ridge;
+    border-radius: 15px;
+    width: 21.2%;
+    height: 190px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(62, 63, 62);
+  }
+  div.mangaTitles li {
+    display: inline-block;
+    list-style-type: none;
+    border-style: ridge;
+    border-radius: 15px;
+    width: 21.2%;
+    height: 190px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(62, 63, 62);
+  }
+  .bleachAnime {
+    background-image: url("./images/bleachAnime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bleachManga {
+    background-image: url("./images/bleachManga.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .narutoAnime {
+    background-image: url("./images/narutoAnime.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+  .narutoManga {
+    background-image: url("./images/narutoManga.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .borutoAnime {
+    background-image: url("./images/borutoAnime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .borutoManga {
+    background-image: url("./images/borutoManga.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .dbsAnime {
+    background-image: url("./images/dbsAnime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .dbsManga {
+    background-image: url("./images/dbsManga.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .aotAnime {
+    background-image: url("./images/aotAnime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .aotManga {
+    background-image: url("./images/aotManga.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .inuyashaAnime {
+    background-image: url("./images/inuyashaAnime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .inuyashaManga {
+    background-image: url("./images/inuyashaManga.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .oneAnime {
+    background-image: url("./images/oneAnime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .oneManga {
+    background-image: url("./images/oneManga.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .fairyAnime {
+    background-image: url("./images/fairyAnime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .fairyManga {
+    background-image: url("./images/fairyManga.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .forums {
+    background-image: url("./images/crunchyForums.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 100%;
+    background-position: center;
+    color:rgb(255, 255, 255);
+  }
+  .shop {
+    background-image: url("./images/crunchyStore.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 100%;
+    background-position: center;
+  }
+  .news {
+    background-image: url("./images/crunchyNews.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 100%;
+    background-position: center;
+  }
+  .support {
+    background-image: url("./images/crunchyHelp.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 100%;
+    background-position: center;
+  }
+  .welcome {
+    background-image: url("./images/crunchyPPT2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 100%;
+    background-position: center;
+
+  }
