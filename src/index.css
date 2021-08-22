@@ -54,26 +54,8 @@ body {
     text-align: center;
 
   }
-  .banner li {
-    display: inline-block;
-    list-style-type: none;
-    width: 33.3%;
-    position: center;
 
-  }
-  .leftBanner {
-    content: url('./images/crunchySubscribe.jpg');
-    width: auto;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0%;
-    border-radius: 20px;
-    padding: 0;
-    opacity: 80%;
-  }
-  .midBanner {
+  .banner {
     content: url('./images/crollbanner.jpg');
     width: auto;
     height: 150px;
@@ -88,18 +70,7 @@ body {
     box-shadow: inset 0 0 10px #000000;
 
   }
-  .rightBanner {
-    content: url('./images/nier.jpg');
-    width: auto;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0%;
-    border-radius: 20px;
-    padding: 0;
 
-  }
     div.animeLinks li {
     display: inline-block;
     list-style-type: none;

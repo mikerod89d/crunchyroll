@@ -13,11 +13,7 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <div className="banner">
-            <li className="leftBanner"></li>
-            <li className="midBanner"></li>
-            <li className="rightBanner"></li>
-          </div>
+          <div className="banner"></div>
             <div className="flexContainer">
               <nav>
                 <ul className="links">
