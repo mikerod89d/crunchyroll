@@ -1,7 +1,7 @@
 body {
-    background-image: url('./images/cBG.jpg');
-    background-size: cover;
+    background-image: url('images/profBG.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px;
     margin: 0;
   }
@@ -9,10 +9,10 @@ body {
     display: flex;
   }  
   nav {
-    width: 10%;
+    width: 20%;
     height: 100%;
     background-color: rgba(81, 82, 80, 0);
-    margin-top: 95px;
+    margin-top: 10px;
   }
   .links {
     list-style: none;
@@ -27,6 +27,7 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.534);
     margin-bottom: 17px;
+    margin-left: 0%;
     padding: 20px;
     border-radius: 20px;
     border-color: rgb(62, 63, 62);
@@ -35,9 +36,10 @@ body {
     color:rgb(255, 255, 255);
   }
   .content {
-    margin-top: 95px;
+    margin-left: 120px;
+    margin-right: 120px;
     display: block;
-    width: 90%;
+    width: 40%;
   }
   .content h2 {
     padding: 0;
@@ -57,13 +59,14 @@ body {
 
   .banner {
     content: url('./images/crollbanner.jpg');
-    width: auto;
-    height: 150px;
+    width: 100%;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    margin-bottom: 0%;
+    margin-bottom: 0;
     padding: 0;
+    opacity: 80%;
     border-radius: 25px;
     -moz-box-shadow: inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
@@ -76,7 +79,7 @@ body {
     list-style-type: none;
     border-style: ridge;
     border-radius: 15px;
-    width: 21.2%;
+    width: 20%;
     height: 190px;
     padding: 20px;
     color: rgb(255, 255, 255);
@@ -89,7 +92,7 @@ body {
     list-style-type: none;
     border-style: ridge;
     border-radius: 15px;
-    width: 21.2%;
+    width: 20%;
     height: 190px;
     padding: 20px;
     color: rgb(255, 255, 255);
@@ -232,5 +235,27 @@ body {
     height: 560px;
     width: 100%;
     background-position: center;
+  }
 
+  .siteMap {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(81, 82, 80, 0);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  .siteMap ul {
+    list-style: none;
+  }
+
+  .siteMap li {
+    border-style: outset;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin-bottom: 17px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: rgb(62, 63, 62);
   }

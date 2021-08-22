@@ -13,7 +13,8 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <div className="banner"></div>
+          <div className="banner">
+          </div>
             <div className="flexContainer">
               <nav>
                 <ul className="links">
@@ -33,6 +34,16 @@ class Main extends Component {
                 <Route path="/forums" component={Forums}/> 
                 <Route path="/news" component={News}/>            
                 <Route path="/support" component={Support}/>            
+              </div>
+              <div className="siteMap">
+                <ul>
+                  <li>Contact Us</li>
+                  <li>Affiliates</li>
+                  <li>Go Premium!</li>
+                  <li>Join the Team!</li>
+                  <li>FAQ's</li>
+                  <li>Business Info</li>
+                </ul>
               </div>
             </div>
           </div>
