@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/crunchyroll/static/css/main.bcbf21b4.chunk.css",
-    "main.js": "/crunchyroll/static/js/main.1e9d814b.chunk.js",
-    "main.js.map": "/crunchyroll/static/js/main.1e9d814b.chunk.js.map",
+    "main.css": "/crunchyroll/static/css/main.06a24611.chunk.css",
+    "main.js": "/crunchyroll/static/js/main.f6e3eeef.chunk.js",
+    "main.js.map": "/crunchyroll/static/js/main.f6e3eeef.chunk.js.map",
     "runtime-main.js": "/crunchyroll/static/js/runtime-main.046f221d.js",
     "runtime-main.js.map": "/crunchyroll/static/js/runtime-main.046f221d.js.map",
     "static/js/2.7ea9214f.chunk.js": "/crunchyroll/static/js/2.7ea9214f.chunk.js",
     "static/js/2.7ea9214f.chunk.js.map": "/crunchyroll/static/js/2.7ea9214f.chunk.js.map",
     "index.html": "/crunchyroll/index.html",
-    "static/css/main.bcbf21b4.chunk.css.map": "/crunchyroll/static/css/main.bcbf21b4.chunk.css.map",
+    "static/css/main.06a24611.chunk.css.map": "/crunchyroll/static/css/main.06a24611.chunk.css.map",
     "static/js/2.7ea9214f.chunk.js.LICENSE.txt": "/crunchyroll/static/js/2.7ea9214f.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/crunchyroll/static/media/oneManga.c4aa7ef5.jpg"
+    "static/media/index.css": "/crunchyroll/static/media/profBG.e8308141.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.046f221d.js",
     "static/js/2.7ea9214f.chunk.js",
-    "static/css/main.bcbf21b4.chunk.css",
-    "static/js/main.1e9d814b.chunk.js"
+    "static/css/main.06a24611.chunk.css",
+    "static/js/main.f6e3eeef.chunk.js"
   ]
 }
